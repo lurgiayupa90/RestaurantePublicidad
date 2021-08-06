@@ -1,0 +1,37 @@
+.card1-1,.card2-2,.card3-3{
+    margin-left:30px;
+    width: 350px;
+    height: 150px;
+  text-align: center;  
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+    margin-top: 70px;
+}
+ .card2-2{background: linear-gradient(
+    rgba(41, 16, 4, 0.545),
+  rgba(41, 16, 4, 0.545),
+  rgba(41, 16, 4, 0.545)
+    ),url(../Img/cafes.png) ;
+    border-radius: 5px;
+    background-size: contain;
+}
+ .card1-1{background: linear-gradient(
+    rgba(41, 16, 4, 0.545),
+    rgba(41, 16, 4, 0.545),
+    rgba(41, 16, 4, 0.545)
+    ),url(../Img/refrescos.jpg) ;
+    background-size: cover;
+    
+}
+ .card3-3{background: linear-gradient(
+    rgba(41, 16, 4, 0.545),
+    rgba(41, 16, 4, 0.545),
+    rgba(41, 16, 4, 0.545)
+    ),url(../Img/pisco.jpg) ;
+
+    background-size: contain;
+}

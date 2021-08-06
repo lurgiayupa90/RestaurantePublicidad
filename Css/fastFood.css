@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;    
+    
+  }
+  /* header */
+
+  nav {
+    text-align: center;
+    line-height: 50pt;
+    height: 80px;     
+    text-align: center;  
+    box-shadow: 1px 0 5px 0 rgba(0, 0, 0,.5); 
+} 
+
+nav a{    
+  text-decoration: none;
+  background: linear-gradient(#ff7315, #ff7315);
+   background-position: 0% 100%;
+   background-repeat: no-repeat;
+   background-size: 0% 2px;
+   transition: background-size .5s;
+   padding-bottom: 10px;
+   font-size: 16px; 
+   letter-spacing: 2px;
+   margin-left: 50px;
+  color: #000; 
+}
+
+
+  a:hover, a:focus {
+    background-size: 100% 2px;
+    color:#ff7315;
+}
+
+.a h2{
+  color: rgb(247, 235, 235);
+}
+.a h2:hover{
+  color: #6f0000;
+}
+
+  /* section */
+
+
+  section{
+    width: 90%;
+     margin: auto;
+     
+   }
+
+
+.cardA,.cardB,.cardC{
+    margin-left:30px;
+    width: 350px;
+    height: 150px;
+  text-align: center;
+   
+}
+
+
+h2{
+    margin-top: 70px;
+    
+}
+ .cardB{background: linear-gradient(
+  rgba(238, 99, 0, 0.5),
+  rgba(232, 74, 6, 0.579),
+  rgba(232, 74, 6, 0.579)
+    ),url(../Img/fastFoodInicio.jpg);
+    border-radius: 5px;
+    background-size: contain;
+}
+ .cardA{background: linear-gradient(
+  rgba(238, 99, 0, 0.5),
+  rgba(232, 74, 6, 0.579),
+  rgba(232, 74, 6, 0.579)
+  ),url(../Img/fastFoodInicio1.jpg) ;
+    background-size: contain;
+    
+}
+ .cardC{background:  linear-gradient(
+  rgba(238, 99, 0, 0.5),
+  rgba(232, 74, 6, 0.579),
+  rgba(232, 74, 6, 0.579)
+  ),url(../Img/fastFoodInicio2.jpg) ;
+
+    background-size: contain;
+}
+
+
+.caja{
+    width: 25%;
+    height: 450px;
+    box-shadow: 1px 0 5px 0 rgba(0, 0, 0,.5); 
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.img{
+    width: 100%;
+    height: 200px;
+}
+.descripcion{
+    padding: 30px; 
+}
+.precio{display: flex;
+    padding:0 30px;
+    justify-content: space-between;}
+
+
+
+.contacto{
+  display: flex;
+  justify-content: space-between;  
+  margin: 10px 10px;
+  color: #02c4ba;
+  font-weight: bold;
+}
+.contacto p:hover{text-decoration: underline;}
+
+
+
+
+  
+   /* footer */
+
+
+   footer{
+    text-align: center;
+   background: #212121;   
+   padding: 40px;
+  } 
+  .footer{
+    display: flex;  
+    margin-bottom: 100px;
+  }
+  
+  footer .nosotr{
+    color:#d8cfcf;  
+    font-family:  'Open Sans', 'Helvetica Neue' ; 
+   margin: 0 0 0 50px;
+  width: 40%;
+  }
+  .nosotr img{
+    padding: 30px; 
+  }
+ 
+  footer .nosotr h3{
+    color: #ff7315;
+  }
+  footer .ico{
+    color: #dfd7d7;
+    padding: 30px;
+   text-align: center; 
+   font-family:  'Open Sans', 'Helvetica Neue';
+   width: 60%;
+  }
+  footer .ico h3{
+   margin-bottom: 50px;
+   color: #ff7315;
+  }
+  
+  footer .nosotr p{
+    text-align: justify;
+  }
+
+  footer .Copyright{
+    color:#ccc ;
+    font-size:12px ;
+   
+  }
+footer .ico .p{
+  color: #000000;
+  padding: 20px ;
+  display: flex;
+  margin-left: 40px;
+}
+footer .ico .p img,p{
+  margin-left: 20px;
+}
+  
+  .ico .facebook{ background: #0277c5;padding: 10px;width: 40px; }
+  .ico .twitter{ background: #2abee7; padding: 10px;width: 40px;}
+  .ico .instagram{ background: #e92c9a; padding: 10px;width: 40px;}
+  .ico .youtube{  background: #f10a02; padding: 10px;width: 40px;}
+  .ico .facebook:hover{opacity: 0.5; }
+  .ico .twitter:hover{ opacity: 0.5;}
+  .ico .instagram:hover{ opacity: 0.5;}
+  .ico .youtube:hover{ opacity: 0.5; }
+
+
+    
+
+ 
